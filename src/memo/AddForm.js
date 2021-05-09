@@ -19,12 +19,14 @@ function AddForm(props) {
     }
 
     return (
-        <form onSubmit={doAction} action="" >
+        <form onSubmit={doAction} action="" className="mb-2">
             <div className="from-group row">
                 <input type="text" className="form-control-sm col"
+                    placeholder="メモの追加"
                     onChange={doChange} value={message} required />
                 <input type="submit" value="Add"
-                    className="btn btn-primary btn-sm col-2"/>
+                    className="btn btn-primary btn-sm col-2"
+                />
             </div>
         </form>
     )

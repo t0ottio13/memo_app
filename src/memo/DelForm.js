@@ -24,7 +24,7 @@ function DelForm(props) {
     ))
 
     return (
-        <form onSubmit={doAction}>
+        <form onSubmit={doAction} className="my-2">
             <div className="form-group row">
                 <select onChange={doChange}
                         className="form-control-sm col"
@@ -33,7 +33,8 @@ function DelForm(props) {
                     {items}
                 </select>
                 <input type="submit" value="Del"
-                    className="btn btn-primary btn-sm col-2" />
+                    className="btn btn-primary btn-sm col-2"
+                />
             </div>
         </form>
     )

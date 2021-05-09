@@ -25,12 +25,15 @@ function FindForm(props) {
     }
 
     return (
-        <form onSubmit={doAction}>
+        <form onSubmit={doAction} className="my-2">
             <div className="form-group row">
                 <input type="text" onChange={doChange}
-                    value={message} className="form-control-sm col" />
+                    value={message} className="form-control-sm col"
+                    placeholder="メモの検索： キーワードを入力"
+                />
                 <input type="submit" value="Find"
-                    className="btn btn-primary btn-sm col-2"/>
+                    className="btn btn-primary btn-sm col-2"
+                />
             </div>
         </form>
     )
