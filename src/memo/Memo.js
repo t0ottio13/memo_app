@@ -40,7 +40,7 @@ function Memo() {
 
     return (
         <table className="table mt-4">
-            <tbody>{ data }</tbody>
+            { data }
         </table>
     )
 }

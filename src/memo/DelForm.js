@@ -33,7 +33,7 @@ function DelForm() {
         <form onSubmit={doAction} className="my-2">
             <div className="form-group row">
                 <select onChange={doChange}
-                    className="form-control-sm col"
+                    className="form-control-sm col bg-white"
                     // 選択欄の一番上が０になるように
                     defaultValue="-1"
                 >

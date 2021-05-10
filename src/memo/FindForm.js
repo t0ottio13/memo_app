@@ -34,7 +34,7 @@ function FindForm() {
         <form onSubmit={doAction} className="my-2">
             <div className="form-group row">
                 <input type="text" onChange={doChange}
-                    value={message} className="form-control-sm col"
+                    value={message} className="form-control-sm col bg-white"
                     placeholder="検索： キーワードを入力"
                 />
                 <input type="submit" value="さがす"

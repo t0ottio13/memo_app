@@ -8,7 +8,7 @@ function MemoPage() {
     const [mode, setMode] = usePersist('mode', 'default')
 
     return (
-        <div>
+        <div className="memoPageBackground">
             <h5 className="my-3">{ mode }</h5>
             <div className="alert alert-info pb-0">
                 {/* 追加フォームとボタン */}
