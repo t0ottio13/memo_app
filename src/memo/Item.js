@@ -14,6 +14,7 @@ function Item(props) {
 
     return (
         <tr>
+            {/* Memoコンポーネントで、indexを渡したので、propsが使える */}
             <th style={th}>No, {props.index}</th>
             <td>{ props.value.message}</td>
             <td style={td}>{f}</td>
